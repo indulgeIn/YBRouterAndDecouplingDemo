@@ -1,0 +1,14 @@
+//
+//  PrefixHeader
+//  YBRouterAndDecouplingDemo
+//
+//  Created by 杨波 on 2019/5/29.
+//  Copyright © 2019 杨波. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIViewController+UI.h"
+
+#endif /* PrefixHeader_pch */
