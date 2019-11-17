@@ -1,15 +1,15 @@
 //
-//  BTarget.m
+//  BAimTarget.m
 //  YBRouterAndDecouplingDemo
 //
 //  Created by 杨波 on 2019/5/29.
 //  Copyright © 2019 杨波. All rights reserved.
 //
 
-#import "BTarget.h"
+#import "BAimTarget.h"
 #import "BAimController.h"
 
-@implementation BTarget
+@implementation BAimTarget
 
 - (void)gotoBAimController:(NSDictionary *)params {
     BAimController *vc = [BAimController new];

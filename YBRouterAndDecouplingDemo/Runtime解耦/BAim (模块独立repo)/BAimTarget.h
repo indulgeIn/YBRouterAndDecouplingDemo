@@ -1,5 +1,5 @@
 //
-//  BTarget.h
+//  BAimTarget.h
 //  YBRouterAndDecouplingDemo
 //
 //  Created by 杨波 on 2019/5/29.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BTarget : NSObject
+@interface BAimTarget : NSObject
 
 - (void)gotoBAimController:(NSDictionary *)params;
 

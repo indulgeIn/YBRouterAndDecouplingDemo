@@ -13,7 +13,7 @@ using namespace std;
 #import "BController.h"
 #import "CController.h"
 #import "DController.h"
-
+#import "EController.h"
 
 typedef pair<NSString *, Class> RootRow;
 
@@ -39,7 +39,8 @@ typedef pair<NSString *, Class> RootRow;
         RootRow(@"非完全解耦", AController.self),
         RootRow(@"Runtime解耦", BController.self),
         RootRow(@"Protocol解耦", CController.self),
-        RootRow(@"Block解耦", DController.self)
+        RootRow(@"Block解耦", DController.self),
+        RootRow(@"弱符号解耦", EController.self)
     };
     for (auto value : arr) {
         _dataSource.push_back(value);

@@ -1,16 +1,16 @@
 //
-//  DRegister.h
+//  EController.h
 //  YBRouterAndDecouplingDemo
 //
-//  Created by 杨波 on 2019/5/29.
+//  Created by 波儿菜 on 2019/11/17.
 //  Copyright © 2019 杨波. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DRegister : NSObject
+@interface EController : UIViewController
 
 @end
 

@@ -8,7 +8,7 @@
 
 #import "BMediator+BAim.h"
 
-static NSString * const kTarget = @"BTarget";
+static NSString * const kTarget = @"BAimTarget";
 static NSString * const kAction = @"gotoBAimController:";
 
 @implementation BMediator (BAim)

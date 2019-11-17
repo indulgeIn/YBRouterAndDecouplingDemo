@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		233A191B2381120E00FF9846 /* EController.m in Sources */ = {isa = PBXBuildFile; fileRef = 233A191A2381120E00FF9846 /* EController.m */; };
+		233A191F238112DC00FF9846 /* EAimController.m in Sources */ = {isa = PBXBuildFile; fileRef = 233A191E238112DC00FF9846 /* EAimController.m */; };
+		233A193523811BFC00FF9846 /* EAimRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 233A193423811BFC00FF9846 /* EAimRouter.m */; };
+		233A19382381211100FF9846 /* EMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 233A19372381211100FF9846 /* EMediator.m */; };
 		2365A1A1229E86F10027C78C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2365A1A0229E86F10027C78C /* AppDelegate.m */; };
 		2365A1A7229E86F10027C78C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2365A1A5229E86F10027C78C /* Main.storyboard */; };
 		2365A1A9229E86F30027C78C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2365A1A8229E86F30027C78C /* Assets.xcassets */; };
@@ -28,13 +32,22 @@
 		2365A1F1229EB2650027C78C /* AMediator+AAim.m in Sources */ = {isa = PBXBuildFile; fileRef = 2365A1F0229EB2650027C78C /* AMediator+AAim.m */; };
 		2365A1F7229EB3E40027C78C /* BMediator+BAim.m in Sources */ = {isa = PBXBuildFile; fileRef = 2365A1F6229EB3E40027C78C /* BMediator+BAim.m */; };
 		2394B5AC229EBF2E00310A57 /* BAimController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2394B5A8229EBF2E00310A57 /* BAimController.m */; };
-		2394B5AD229EBF2E00310A57 /* BTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 2394B5AA229EBF2E00310A57 /* BTarget.m */; };
-		2394B5B0229EC66C00310A57 /* DRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 2394B5AF229EC66C00310A57 /* DRegister.m */; };
+		2394B5AD229EBF2E00310A57 /* BAimTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 2394B5AA229EBF2E00310A57 /* BAimTarget.m */; };
+		2394B5B0229EC66C00310A57 /* DAimRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 2394B5AF229EC66C00310A57 /* DAimRegister.m */; };
 		2394B5B3229EC8A400310A57 /* DMediator+DAim.m in Sources */ = {isa = PBXBuildFile; fileRef = 2394B5B2229EC8A400310A57 /* DMediator+DAim.m */; };
 		2394B5B7229ED85A00310A57 /* CAimServiceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2394B5B6229ED85A00310A57 /* CAimServiceProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		233A19192381120E00FF9846 /* EController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EController.h; sourceTree = "<group>"; };
+		233A191A2381120E00FF9846 /* EController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EController.m; sourceTree = "<group>"; };
+		233A191D238112DC00FF9846 /* EAimController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAimController.h; sourceTree = "<group>"; };
+		233A191E238112DC00FF9846 /* EAimController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAimController.m; sourceTree = "<group>"; };
+		233A193123811ADF00FF9846 /* EAimMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAimMediator.h; sourceTree = "<group>"; };
+		233A193323811BFC00FF9846 /* EAimRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAimRouter.h; sourceTree = "<group>"; };
+		233A193423811BFC00FF9846 /* EAimRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAimRouter.m; sourceTree = "<group>"; };
+		233A19362381211100FF9846 /* EMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMediator.h; sourceTree = "<group>"; };
+		233A19372381211100FF9846 /* EMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMediator.m; sourceTree = "<group>"; };
 		2365A19C229E86F10027C78C /* YBRouterAndDecouplingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YBRouterAndDecouplingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2365A19F229E86F10027C78C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2365A1A0229E86F10027C78C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -75,11 +88,11 @@
 		2365A1F6229EB3E40027C78C /* BMediator+BAim.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BMediator+BAim.m"; sourceTree = "<group>"; };
 		2365A1FB229EB9480027C78C /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		2394B5A8229EBF2E00310A57 /* BAimController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAimController.m; sourceTree = "<group>"; };
-		2394B5A9229EBF2E00310A57 /* BTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTarget.h; sourceTree = "<group>"; };
-		2394B5AA229EBF2E00310A57 /* BTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTarget.m; sourceTree = "<group>"; };
+		2394B5A9229EBF2E00310A57 /* BAimTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAimTarget.h; sourceTree = "<group>"; };
+		2394B5AA229EBF2E00310A57 /* BAimTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAimTarget.m; sourceTree = "<group>"; };
 		2394B5AB229EBF2E00310A57 /* BAimController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAimController.h; sourceTree = "<group>"; };
-		2394B5AE229EC66C00310A57 /* DRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRegister.h; sourceTree = "<group>"; };
-		2394B5AF229EC66C00310A57 /* DRegister.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRegister.m; sourceTree = "<group>"; };
+		2394B5AE229EC66C00310A57 /* DAimRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAimRegister.h; sourceTree = "<group>"; };
+		2394B5AF229EC66C00310A57 /* DAimRegister.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAimRegister.m; sourceTree = "<group>"; };
 		2394B5B1229EC8A400310A57 /* DMediator+DAim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DMediator+DAim.h"; sourceTree = "<group>"; };
 		2394B5B2229EC8A400310A57 /* DMediator+DAim.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DMediator+DAim.m"; sourceTree = "<group>"; };
 		2394B5B4229ED4A100310A57 /* CAimService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAimService.h; sourceTree = "<group>"; };
@@ -98,6 +111,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		233A1915238111E000FF9846 /* 弱符号解耦 */ = {
+			isa = PBXGroup;
+			children = (
+				233A192A2381188000FF9846 /* Mediator (基础库独立repo) */,
+				233A193C238124CC00FF9846 /* EAimMediator (独立repo) */,
+				233A191C238112B700FF9846 /* EAim (模块独立repo) */,
+				233A19192381120E00FF9846 /* EController.h */,
+				233A191A2381120E00FF9846 /* EController.m */,
+			);
+			path = "弱符号解耦";
+			sourceTree = "<group>";
+		};
+		233A191C238112B700FF9846 /* EAim (模块独立repo) */ = {
+			isa = PBXGroup;
+			children = (
+				233A193323811BFC00FF9846 /* EAimRouter.h */,
+				233A193423811BFC00FF9846 /* EAimRouter.m */,
+				233A191D238112DC00FF9846 /* EAimController.h */,
+				233A191E238112DC00FF9846 /* EAimController.m */,
+			);
+			path = "EAim (模块独立repo)";
+			sourceTree = "<group>";
+		};
+		233A192A2381188000FF9846 /* Mediator (基础库独立repo) */ = {
+			isa = PBXGroup;
+			children = (
+				233A19362381211100FF9846 /* EMediator.h */,
+				233A19372381211100FF9846 /* EMediator.m */,
+			);
+			path = "Mediator (基础库独立repo)";
+			sourceTree = "<group>";
+		};
+		233A1939238123C900FF9846 /* DMediator+DAim (独立repo) */ = {
+			isa = PBXGroup;
+			children = (
+				2394B5B1229EC8A400310A57 /* DMediator+DAim.h */,
+				2394B5B2229EC8A400310A57 /* DMediator+DAim.m */,
+			);
+			path = "DMediator+DAim (独立repo)";
+			sourceTree = "<group>";
+		};
+		233A193A2381244100FF9846 /* CAimService (独立repo) */ = {
+			isa = PBXGroup;
+			children = (
+				2394B5B4229ED4A100310A57 /* CAimService.h */,
+			);
+			path = "CAimService (独立repo)";
+			sourceTree = "<group>";
+		};
+		233A193B2381247200FF9846 /* BMediator+BAim (独立repo) */ = {
+			isa = PBXGroup;
+			children = (
+				2365A1F5229EB3E40027C78C /* BMediator+BAim.h */,
+				2365A1F6229EB3E40027C78C /* BMediator+BAim.m */,
+			);
+			path = "BMediator+BAim (独立repo)";
+			sourceTree = "<group>";
+		};
+		233A193C238124CC00FF9846 /* EAimMediator (独立repo) */ = {
+			isa = PBXGroup;
+			children = (
+				233A193123811ADF00FF9846 /* EAimMediator.h */,
+			);
+			path = "EAimMediator (独立repo)";
+			sourceTree = "<group>";
+		};
 		2365A193229E86F10027C78C = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +201,7 @@
 				2365A1B8229E881D0027C78C /* Runtime解耦 */,
 				2365A1B9229E88250027C78C /* Protocol解耦 */,
 				2365A1BA229E88460027C78C /* Block解耦 */,
+				233A1915238111E000FF9846 /* 弱符号解耦 */,
 				2365A19F229E86F10027C78C /* AppDelegate.h */,
 				2365A1A0229E86F10027C78C /* AppDelegate.m */,
 				2365A1D3229E8B5C0027C78C /* RootController.h */,
@@ -150,8 +230,9 @@
 		2365A1B8229E881D0027C78C /* Runtime解耦 */ = {
 			isa = PBXGroup;
 			children = (
-				2365A1D7229E8F630027C78C /* Mediator */,
-				2365A1F2229EB3600027C78C /* BAim */,
+				2365A1D7229E8F630027C78C /* Mediator (基础库独立repo) */,
+				233A193B2381247200FF9846 /* BMediator+BAim (独立repo) */,
+				2365A1F2229EB3600027C78C /* BAim (模块独立repo) */,
 				2365A1C1229E89520027C78C /* BController.h */,
 				2365A1C2229E89520027C78C /* BController.m */,
 			);
@@ -161,8 +242,9 @@
 		2365A1B9229E88250027C78C /* Protocol解耦 */ = {
 			isa = PBXGroup;
 			children = (
-				2365A1D8229E8F650027C78C /* Mediator */,
-				2365A1F3229EB36F0027C78C /* CAim */,
+				2365A1D8229E8F650027C78C /* Mediator (基础库独立repo) */,
+				233A193A2381244100FF9846 /* CAimService (独立repo) */,
+				2365A1F3229EB36F0027C78C /* CAim (模块独立repo) */,
 				2365A1C7229E89660027C78C /* CController.h */,
 				2365A1C8229E89660027C78C /* CController.m */,
 			);
@@ -172,8 +254,9 @@
 		2365A1BA229E88460027C78C /* Block解耦 */ = {
 			isa = PBXGroup;
 			children = (
-				2365A1D9229E8F690027C78C /* Mediator */,
-				2365A1F4229EB3870027C78C /* DAim */,
+				2365A1D9229E8F690027C78C /* Mediator (基础库独立repo) */,
+				233A1939238123C900FF9846 /* DMediator+DAim (独立repo) */,
+				2365A1F4229EB3870027C78C /* DAim (模块独立repo) */,
 				2365A1CD229E89B20027C78C /* DController.h */,
 				2365A1CE229E89B20027C78C /* DController.m */,
 			);
@@ -189,31 +272,31 @@
 			path = Mediator;
 			sourceTree = "<group>";
 		};
-		2365A1D7229E8F630027C78C /* Mediator */ = {
+		2365A1D7229E8F630027C78C /* Mediator (基础库独立repo) */ = {
 			isa = PBXGroup;
 			children = (
 				2365A1DD229E94A80027C78C /* BMediator.h */,
 				2365A1DE229E94A80027C78C /* BMediator.m */,
 			);
-			path = Mediator;
+			path = "Mediator (基础库独立repo)";
 			sourceTree = "<group>";
 		};
-		2365A1D8229E8F650027C78C /* Mediator */ = {
+		2365A1D8229E8F650027C78C /* Mediator (基础库独立repo) */ = {
 			isa = PBXGroup;
 			children = (
 				2365A1E0229E94AF0027C78C /* CMediator.h */,
 				2365A1E1229E94AF0027C78C /* CMediator.m */,
 			);
-			path = Mediator;
+			path = "Mediator (基础库独立repo)";
 			sourceTree = "<group>";
 		};
-		2365A1D9229E8F690027C78C /* Mediator */ = {
+		2365A1D9229E8F690027C78C /* Mediator (基础库独立repo) */ = {
 			isa = PBXGroup;
 			children = (
 				2365A1E3229E94B60027C78C /* DMediator.h */,
 				2365A1E4229E94B60027C78C /* DMediator.m */,
 			);
-			path = Mediator;
+			path = "Mediator (基础库独立repo)";
 			sourceTree = "<group>";
 		};
 		2365A1E6229E978E0027C78C /* Tool */ = {
@@ -236,42 +319,37 @@
 			path = AAim;
 			sourceTree = "<group>";
 		};
-		2365A1F2229EB3600027C78C /* BAim */ = {
+		2365A1F2229EB3600027C78C /* BAim (模块独立repo) */ = {
 			isa = PBXGroup;
 			children = (
-				2365A1F5229EB3E40027C78C /* BMediator+BAim.h */,
-				2365A1F6229EB3E40027C78C /* BMediator+BAim.m */,
-				2394B5A9229EBF2E00310A57 /* BTarget.h */,
-				2394B5AA229EBF2E00310A57 /* BTarget.m */,
+				2394B5A9229EBF2E00310A57 /* BAimTarget.h */,
+				2394B5AA229EBF2E00310A57 /* BAimTarget.m */,
 				2394B5AB229EBF2E00310A57 /* BAimController.h */,
 				2394B5A8229EBF2E00310A57 /* BAimController.m */,
 			);
-			path = BAim;
+			path = "BAim (模块独立repo)";
 			sourceTree = "<group>";
 		};
-		2365A1F3229EB36F0027C78C /* CAim */ = {
+		2365A1F3229EB36F0027C78C /* CAim (模块独立repo) */ = {
 			isa = PBXGroup;
 			children = (
-				2394B5B4229ED4A100310A57 /* CAimService.h */,
 				2394B5B5229ED85A00310A57 /* CAimServiceProvider.h */,
 				2394B5B6229ED85A00310A57 /* CAimServiceProvider.m */,
 				2365A1CA229E896E0027C78C /* CAimController.h */,
 				2365A1CB229E896E0027C78C /* CAimController.m */,
 			);
-			path = CAim;
+			path = "CAim (模块独立repo)";
 			sourceTree = "<group>";
 		};
-		2365A1F4229EB3870027C78C /* DAim */ = {
+		2365A1F4229EB3870027C78C /* DAim (模块独立repo) */ = {
 			isa = PBXGroup;
 			children = (
-				2394B5B1229EC8A400310A57 /* DMediator+DAim.h */,
-				2394B5B2229EC8A400310A57 /* DMediator+DAim.m */,
-				2394B5AE229EC66C00310A57 /* DRegister.h */,
-				2394B5AF229EC66C00310A57 /* DRegister.m */,
+				2394B5AE229EC66C00310A57 /* DAimRegister.h */,
+				2394B5AF229EC66C00310A57 /* DAimRegister.m */,
 				2365A1D0229E89BE0027C78C /* DAimController.h */,
 				2365A1D1229E89BE0027C78C /* DAimController.m */,
 			);
-			path = DAim;
+			path = "DAim (模块独立repo)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,15 +422,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2394B5AD229EBF2E00310A57 /* BTarget.m in Sources */,
+				2394B5AD229EBF2E00310A57 /* BAimTarget.m in Sources */,
 				2365A1F1229EB2650027C78C /* AMediator+AAim.m in Sources */,
 				2365A1D5229E8B5D0027C78C /* RootController.mm in Sources */,
 				2365A1DF229E94A80027C78C /* BMediator.m in Sources */,
+				233A19382381211100FF9846 /* EMediator.m in Sources */,
 				2365A1F7229EB3E40027C78C /* BMediator+BAim.m in Sources */,
 				2394B5B3229EC8A400310A57 /* DMediator+DAim.m in Sources */,
 				2365A1CF229E89B20027C78C /* DController.m in Sources */,
 				2365A1E2229E94AF0027C78C /* CMediator.m in Sources */,
-				2394B5B0229EC66C00310A57 /* DRegister.m in Sources */,
+				2394B5B0229EC66C00310A57 /* DAimRegister.m in Sources */,
 				2365A1E5229E94B60027C78C /* DMediator.m in Sources */,
 				2394B5B7229ED85A00310A57 /* CAimServiceProvider.m in Sources */,
 				2365A1C0229E89330027C78C /* AAimController.m in Sources */,
@@ -360,9 +439,12 @@
 				2365A1CC229E896E0027C78C /* CAimController.m in Sources */,
 				2394B5AC229EBF2E00310A57 /* BAimController.m in Sources */,
 				2365A1C3229E89520027C78C /* BController.m in Sources */,
+				233A191B2381120E00FF9846 /* EController.m in Sources */,
 				2365A1BD229E88F30027C78C /* AController.m in Sources */,
 				2365A1D2229E89BE0027C78C /* DAimController.m in Sources */,
+				233A191F238112DC00FF9846 /* EAimController.m in Sources */,
 				2365A1AF229E86F30027C78C /* main.m in Sources */,
+				233A193523811BFC00FF9846 /* EAimRouter.m in Sources */,
 				2365A1A1229E86F10027C78C /* AppDelegate.m in Sources */,
 				2365A1E9229E97B20027C78C /* UIViewController+UI.m in Sources */,
 				2365A1C9229E89660027C78C /* CController.m in Sources */,
